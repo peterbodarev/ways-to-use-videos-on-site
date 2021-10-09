@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Video tags</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/style-tags.css" />
+		<meta name="format-detection" content="telephone-no" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+		/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="video">
+				<!-- <video autoplay muted poster="img/poster-image.png" controls class="video__item"> -->
+				<!-- <video preload="metadata" poster="img/poster-image.png" controls class="video__item"> -->
+				<video
+					preload="none"
+					poster="img/poster-image.png"
+					controls
+					class="video__item"
+				>
+					<source src="./videos/video.webm" type="video/webm" />
+					<source src="./videos/video.mp4" type="video/mp4" />
+				</video>
+			</div>
+		</div>
+	</body>
+</html>
